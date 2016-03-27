@@ -20,4 +20,5 @@
 # available at http://guides.rubyonrails.org/i18n.html.
 
 en:
-  hello: "Hello world"
+  sufia:
+    background_attribution: "Background image courtesy of Penn State University. JHU image coming soon."

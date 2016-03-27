@@ -1,0 +1,15 @@
+en:
+  sufia:
+    product_name:       "JScholarship"
+    product_twitter_handle: "@mselibrary"
+    institution_name:   "Johns Hopkins"
+    institution_name_full: "Johns Hopkins University"
+    sort_label: "Sort the listing of items"
+    deposit_agreement:  "JScholarship's Deposit Agreement"
+    directory:
+      suffix:           "@library.jhu.edu"
+    search:
+      form:
+        q:
+          label:          "Search JScholarship"
+label_long:   "All of JScholarship"
