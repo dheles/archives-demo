@@ -52,11 +52,10 @@ end
   gem 'rsolr', '~> 1.0.6'
   gem 'devise'
   gem 'devise-guests', '~> 0.3'
+  
+  # limit ActiveFedora to safe range
+  gem 'active-fedora', '~> 9.4', '< 9.8'
 
-
-gem 'rsolr', '~> 1.0.6'
-gem 'devise'
-gem 'devise-guests', '~> 0.3'
 group :development, :test do
   gem 'rspec-rails'
   gem 'jettywrapper'
