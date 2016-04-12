@@ -28,8 +28,8 @@ config/solr.yml
 config/redis.yml
 config/blacklight.yml
 config/initializers/setup_mail.rb
-config/environments/development.rb
-config/environments/production.rb
+#config/environments/development.rb
+#config/environments/production.rb
 
 # Ignore jetty
 jetty/
