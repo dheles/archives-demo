@@ -8,7 +8,7 @@
 # Johns Hopkins University News-letter, Volume 69, Number 1 (1964 September 25)
 require 'csv'
 require 'date'
-file = File.open('script/inventory-for-drew.csv', 'rb')
+file = File.open('inventory.csv', 'rb')
 CSV.foreach(file.path, headers: true) do |row|
   file_hash = row.to_hash
   GenericFile.where(title_sim: file_hash["File name"]).each do |gf|
