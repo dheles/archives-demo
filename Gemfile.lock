@@ -58,7 +58,7 @@ GEM
       activemodel (= 4.2.0)
       activesupport (= 4.2.0)
       arel (~> 6.0)
-    activerecord-import (0.12.0)
+    activerecord-import (0.13.0)
       activerecord (>= 3.0)
     activeresource (4.0.0)
       activemodel (~> 4.0)
@@ -77,7 +77,7 @@ GEM
       addressable (>= 2.3.1)
       extlib (>= 0.9.15)
       multi_json (>= 1.0.0)
-    autoprefixer-rails (6.3.5)
+    autoprefixer-rails (6.3.6)
       execjs
     bcp47 (0.3.3)
       i18n
@@ -104,7 +104,7 @@ GEM
       autoprefixer-rails (>= 5.2.1)
       sass (>= 3.3.4)
     breadcrumbs_on_rails (2.3.1)
-    browse-everything (0.9.1)
+    browse-everything (0.10.0)
       bootstrap-sass
       dropbox-sdk (>= 1.6.2)
       font-awesome-rails
@@ -116,9 +116,9 @@ GEM
       sass-rails
       skydrive
     builder (3.2.2)
-    byebug (8.2.2)
+    byebug (8.2.4)
     cancancan (1.13.1)
-    carrierwave (0.10.0)
+    carrierwave (0.11.0)
       activemodel (>= 3.2.0)
       activesupport (>= 3.2.0)
       json (>= 1.7)
@@ -160,7 +160,7 @@ GEM
     faraday (0.9.2)
       multipart-post (>= 1.2, < 3)
     ffi (1.9.10)
-    font-awesome-rails (4.5.0.1)
+    font-awesome-rails (4.6.1.0)
       railties (>= 3.2, < 5.1)
     foreigner (1.7.4)
       activerecord (>= 3.0.0)
@@ -298,8 +298,8 @@ GEM
       multi_json (~> 1.10)
     loofah (2.0.3)
       nokogiri (>= 1.5.9)
-    mail (2.6.4)
-      mime-types (>= 1.16, < 4)
+    mail (2.6.3)
+      mime-types (>= 1.16, < 3)
     mail_form (1.5.1)
       actionmailer (>= 3.2, < 5)
       activemodel (>= 3.2, < 5)
@@ -396,7 +396,7 @@ GEM
       rdf-xsd (~> 1.1)
     rdf-n3 (1.99.0)
       rdf (~> 1.99)
-    rdf-rdfa (1.99.0)
+    rdf-rdfa (1.99.1)
       haml (~> 4.0)
       htmlentities (~> 4.3)
       rdf (~> 1.99)
@@ -428,7 +428,7 @@ GEM
     rdf-turtle (1.99.0)
       ebnf (~> 1.0)
       rdf (~> 1.99)
-    rdf-vocab (0.8.7.1)
+    rdf-vocab (0.8.8)
       rdf (~> 1.1, >= 1.1.10)
     rdf-xsd (1.99.0)
       rdf (~> 1.99)
@@ -476,7 +476,7 @@ GEM
       multipart-post
       oauth2
     rubyzip (1.2.0)
-    sass (3.4.21)
+    sass (3.4.22)
     sass-rails (5.0.4)
       railties (>= 4.0.0, < 5.0)
       sass (~> 3.1)
@@ -523,8 +523,8 @@ GEM
     sparql-client (1.99.0)
       net-http-persistent (~> 2.9)
       rdf (~> 1.1)
-    spring (1.6.4)
-    sprockets (3.5.2)
+    spring (1.7.1)
+    sprockets (3.6.0)
       concurrent-ruby (~> 1.0)
       rack (> 1, < 3)
     sprockets-rails (3.0.4)
@@ -617,6 +617,7 @@ DEPENDENCIES
   jettywrapper
   jquery-rails
   kaminari!
+  mail (= 2.6.3)
   pg
   rails (= 4.2.0)
   rsolr (~> 1.0.6)
