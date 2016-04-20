@@ -59,11 +59,10 @@ end
   # pin mail gem to avoid mime-types compatibility issues
   gem 'mail', '2.6.3'
 
+  # we need jettywrapper, even for a "production" build for now
+  gem 'jettywrapper'
 
-gem 'rsolr', '~> 1.0.6'
-gem 'devise'
-gem 'devise-guests', '~> 0.3'
 group :development, :test do
   gem 'rspec-rails'
-  gem 'jettywrapper'
+  #gem 'jettywrapper'
 end
