@@ -44,25 +44,28 @@ group :development, :test do
 end
 
 
-  # Sufia-related dependencies
-  gem 'sufia', '6.6.0'
-  gem 'kaminari', github: 'jcoyne/kaminari', branch: 'sufia'  # required to handle pagination properly in dashboard. See https://github.com/amatsuda/kaminari/pull/322'
+# Sufia-related dependencies
+gem 'sufia', '6.6.0'
+gem 'kaminari', github: 'jcoyne/kaminari', branch: 'sufia'
+# required to handle pagination properly in dashboard. See https://github.com/amatsuda/kaminari/pull/322
 
-  # resolve hopefully temporary issue with devise-guests:
-  gem 'rsolr', '~> 1.0.6'
-  gem 'devise'
-  gem 'devise-guests', '~> 0.3'
+# resolve hopefully temporary issue with devise-guests:
+gem 'rsolr', '~> 1.0.6'
+gem 'devise'
+gem 'devise-guests', '~> 0.3'
 
-  # limit ActiveFedora to safe range
-  gem 'active-fedora', '~> 9.4', '< 9.8'
+# limit ActiveFedora to safe range
+gem 'active-fedora', '~> 9.4', '< 9.8'
 
-  # pin mail gem to avoid mime-types compatibility issues
-  gem 'mail', '2.6.3'
+# pin mail gem to avoid mime-types compatibility issues
+gem 'mail', '2.6.3'
 
-  # we need jettywrapper, even for a "production" build for now
-  gem 'jettywrapper'
+# for now, we need jettywrapper, even for a "production" build (which we are using for staging)
+gem 'jettywrapper'
+
+# use figaro to set environment variables
+gem 'figaro'
 
 group :development, :test do
   gem 'rspec-rails'
-  #gem 'jettywrapper'
 end

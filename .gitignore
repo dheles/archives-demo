@@ -40,5 +40,5 @@ jetty/
 # ignore precompiled assets
 public/assets/
 
-# ignore environment vars
-.rbenv-vars
+# Ignore application configuration
+/config/application.yml
